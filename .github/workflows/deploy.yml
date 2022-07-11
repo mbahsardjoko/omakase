@@ -11,7 +11,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      working-directory: public
+      working-directory: omakase
 
     steps:
     - name: install firebase
