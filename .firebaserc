@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "hariinimenakjubkan13"
+  },
+  "targets": {
+    "hariinimenakjubkan13": {
+      "hosting": {
+        "graduation-graduation-cherry-7101": [
+          "graduation-graduation-cherry-7101"
+        ]
+      }
+    }
+  }
+}
