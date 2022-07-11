@@ -13,12 +13,8 @@ jobs:
     env:
       working-directory: public
 
-    strategy:
-      matrix:
-        node-version: [10.x]
-
     steps:
-        - name: install firebase
+    - name: install firebase
       run: npm i firebase-tools -g  
     - name: deploy
       run: firebase deploy --token ${{ secrets.GCLOUD_TOKEN }}
